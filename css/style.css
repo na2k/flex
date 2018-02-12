@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: calibri;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 10px;
+  width: 100%;
+  height: 100px;
+  background: red;
+}
+
+.title{
+  color: white;
+
+}
+
+nav{
+  width: 100%;
+  height: 50px;
+  color: gray;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 80px;
+  transition: 1.2s;
+}
+
+nav ul li:hover{
+  background: red;
+  color: white;
+  cursor: pointer;
+  transition: 1.2s;
+}
+nav ul li:nth-child(1){
+  display: inline-block;
+  margin-left: 200px;
+}
+
+#container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#container .bloc{
+  width: 50%;
+  height: auto;
+  list-style: none;
+  background-color: gray;
+  min-width: 320px;
+  flex: 1;
+}
+
+#container .bloc:nth-child(2){
+  background: khaki;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+#about{
+  background: red;
+  margin: 10px;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  padding-left: 10px;
+}
+.img-responsive{
+  display: block;
+  min-width: 320px;
+  height: auto;
+}
+#container .bloc p{
+  color: gray;
+  margin: 10px;
+}
+
+#wrap{
+  display: flex;
+  flex-direction: row;
+}
+
+.article{
+  background: lemonchiffon;
+  margin: 10px;
+}
+
+footer{
+  background:black;
+  width: 100%;
+  height: 50px;
+}
